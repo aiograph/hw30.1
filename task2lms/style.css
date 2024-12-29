@@ -1,0 +1,12 @@
+.element{
+    width: 350px;
+    background-color: green;
+    color: green;
+    height: 220px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border: 2px solid red;
+}

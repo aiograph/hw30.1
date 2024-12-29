@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F9F9F9;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    padding-left: 100px;
+}
+
+.header_navigate{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.header_navigate > a{
+    text-decoration: none;
+    color: #707070;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.freshly{
+    display: flex;
+    padding-right: 137px;
+    border: 2px #779611 solid;
+}
+
+.freshly_container--title{
+    color: #779611;
+    font-family: Exo 2;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 193px;
+    padding-left: 100px;
+    padding-right: 647px;
+    margin-bottom: 0px;
+}
+
+.freshly_container--text{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-left: 100px;
+    padding-right: 443px;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.freshly_container--btn{
+    background-color: #779611;
+    color: #F9F9F9;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39.01px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 18px 70px;
+    border-radius: 40px;
+    border: 0px;
+    margin-top: 50px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.shop--title{
+    font-family: Exo 2;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #779611;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 35px;
+}
+
+.shop--text{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    max-width: 612px;
+}
+
+.shop_container{
+    display: flex;
+    margin-left: 100px;
+    gap: 20px;
+}
+
+.shop_container_card--name, .plans_container_card--product{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #779611;
+    padding-top: 35px;
+    padding-left: 60px;
+}
+
+.shop_container_card--price, .plans_container_card--price{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 15px;
+    padding-left: 60px;
+    margin-bottom: 80px;
+}
+
+.plans--title{
+    font-family: Exo 2;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #779611;
+    margin-left: 100px;
+}
+
+.plans--text{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 35px;
+    max-width: 612px;
+}
+
+.plans_container{
+    display: flex;
+    margin-left: 100px;
+    gap: 20px;
+}
+
+.aboutus{
+    padding-right: 137px;
+    border: 2px #779611 solid;
+}
+
+.aboutus_container{
+    display: flex;
+}
+
+.aboutus_container_text{
+    padding-top: 203px;
+    padding-left: 100px;
+    padding-right: 455px;
+    padding-bottom: 204px;
+}
+
+.aboutus_container_text--smtitle{
+    font-family: Exo 2;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #779611;
+    padding-bottom: 15px;
+}
+
+.aboutus_container_text--title{
+    font-family: Exo 2;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #779611;
+    max-width: 560px;
+    padding-bottom: 35px;
+}
+
+.aboutus_container_text--text{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 560px;
+}
+
+.aboutus_container_img--img{
+    padding-top: 114px;
+    padding-bottom: 114px;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer_list1{
+    list-style-type: none;
+    padding-top: 60px;
+    padding-right: 349px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+
+.footer_list2{
+    list-style-type: none;
+    padding-top: 60px;
+    padding-right: 319px;
+    padding-bottom: 40px;
+}
+
+.footer_list3{
+    list-style-type: none;
+    padding-top: 60px;
+    padding-right: 267px;
+    padding-bottom: 40px;
+}
+
+.footer_list4{
+    list-style-type: none;
+    padding-top: 60px;
+    padding-right: 131  px;
+    padding-bottom: 40px;
+}
+
+
+.footer_list--term > a, .footer_list--term{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
